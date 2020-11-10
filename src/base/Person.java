@@ -12,6 +12,10 @@ public class Person {
         this.lastname = lastname;
     }
 
+    public Person(String string, String string0, String string1) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     public int getId() { return id; }
     public String getFirstname() { return firstname; }
     public String getLastname() { return lastname; }
