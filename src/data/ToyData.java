@@ -8,8 +8,9 @@ public class ToyData {
 
     public static Bike[] getBikes() {
         Bike[] bikes = new Bike[3];
-        // your code
-
+        bikes[0] = new Bike(("S"), (1000));
+        bikes[1] = new Bike(("A"), (900));
+        bikes[2] = new Bike(("D"), (800));
         return bikes;
     }
 
@@ -22,16 +23,14 @@ public class ToyData {
 
     public static Parcel[] getParcels() {
         Parcel[] parcels = new Parcel[10];
-        // your code
-
         return parcels;
     }
 
     //testing
     public static void main(String[] args) {
         printBike();
-        printPerson();
-        printParcels();
+       /* printPerson();
+        printParcels();*/
     }
 
     private static void printBike() {
