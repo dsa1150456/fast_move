@@ -39,8 +39,8 @@ public class ToyData {
 
     //testing
     public static void main(String[] args) {
-        //printBike();
-        //printPerson();
+        printBike();
+        printPerson();
         printParcels();
     }
 
